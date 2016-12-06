@@ -15,7 +15,7 @@ the programs, and configuring their use.
 
 ## Options:
 
-   This setup uses `helm' by default. If you do not want this, edit
+   This setup uses 'helm' by default. If you do not want this, edit
    file ```init.el```, commenting out the two lines ```(require
    'setup-helm)``` and ```(require 'setup-helm-gtags)```, and
    uncommenting line ```(require 'setup-ggtags)```.
