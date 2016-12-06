@@ -8,6 +8,18 @@ the programs, and configuring their use.
 
    https://boruch-baum.github.io/emacs_mini_manual/c-ide.html
 
+## Requirements:
+
+1. Gnu Global, probably available in your distribution's repositories,
+   and definitely available from GNU.
+
+## Options:
+
+   This setup uses `helm' by default. If you do not want this, edit
+   file init.el, commenting out the two lines (require 'setup-helm)
+   and (require 'setup-helm-gtags), and uncommenting line (require
+   'setup-ggtags).
+
 ## Instructions:
 
 1. Download the repository

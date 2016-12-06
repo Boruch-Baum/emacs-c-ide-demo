@@ -1,5 +1,11 @@
 ; init.el - for emacs_ide_demo
 ;
+; Requirements:
+;   GNU Global
+; Options:
+;   The default is to use `helm'. If you do not want this, comment out
+;   the two lines (require 'setup-helm) and (require
+;   'setup-helm-gtags), and uncomment line (require 'setup-ggtags).
 ; Usage:
 ;   cp emacs_ide_demo ~/.emacs.d/
 ;   M-x package-refresh-contents
@@ -22,8 +28,9 @@
 (if (version< emacs-version "24.4")
     (require 'setup-ivy-counsel)
   (require 'setup-helm)
-  (require 'setup-helm-gtags))
-;; (require 'setup-ggtags)
+  (require 'setup-helm-gtags)
+; (require 'setup-ggtags)
+  )
 (require 'setup-cedet)
 (require 'setup-editing)
 
