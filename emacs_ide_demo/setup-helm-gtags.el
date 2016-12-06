@@ -27,6 +27,7 @@
 
     ;; key bindings
     (with-eval-after-load 'helm-gtags
+      (define-key helm-gtags-mode-map (kbd "C-c g c") 'helm-gtags-create-tags)
       (define-key helm-gtags-mode-map (kbd "C-c g a") 'helm-gtags-tags-in-this-function)
       (define-key helm-gtags-mode-map (kbd "C-j") 'helm-gtags-select)
       (define-key helm-gtags-mode-map (kbd "M-.") 'helm-gtags-dwim)
