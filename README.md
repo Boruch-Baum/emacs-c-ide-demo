@@ -14,15 +14,15 @@ the programs, and configuring their use.
 
 2. Copy the entire emacs_ide_demo folder to your ~/.emacs.d/
 
-     M-! cp emacs_ide_demo ~/.emacs.d/
+     ```M-! cp emacs_ide_demo ~/.emacs.d/```
 
 3. Update the emacs repository package lists.
 
-     M-x package-refresh-contents
+     ```M-x package-refresh-contents```
 
 4. Set-up the IDE.
 
-     M-x load-file ~/.emacs.d/init.el
+     ```M-x load-file ~/.emacs.d/init.el```
 
 ## Inspiration
 
