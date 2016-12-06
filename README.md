@@ -34,7 +34,7 @@ the programs, and configuring their use.
 
 4. Set-up the IDE.
 
-     ```M-x load-file ~/.emacs.d/init.el```
+     ```M-x load-file ~/.emacs.d/emacs_ide_demo/init.el```
 
 ## Inspiration
 
