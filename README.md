@@ -1,8 +1,8 @@
 # Quick and easy setup of an fully-functional emacs IDE
 
 Quick and easy setup of an fully-functional emacs IDE, including
-having emacs download programs from internet repositories, compiling
-the programs, and configuring their use.
+having emacs download IDE component programs from internet
+repositories, compiling the programs, and configuring their use.
 
 ## Reference:
 
@@ -24,7 +24,7 @@ the programs, and configuring their use.
 
 1. Download the repository
 
-2. Copy the entire emacs_ide_demo folder to your ~/.emacs.d/
+2. Copy the entire ```emacs_ide_demo``` folder to your ```~/.emacs.d/```
 
      ```M-! cp emacs_ide_demo ~/.emacs.d/```
 
